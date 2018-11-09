@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: block;
+    position: relative;
+    max-width: 100%;
+}
+
+.banner{
+    background-image: url(../image/bg-masthead.jpg);
+    /* background-color: #6B818C; */
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 50vh;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav {
+    background-color: rgba(59, 34, 34, 0.8);
+    
+}
+
+
+footer{
+    text-align: center;
+    color: #DCDCDC;
+    background-color: black;
+    padding: 5vh;
+    margin-top: 10vh;
+}
+
+
+.entreprise{
+    text-align: center;
+    color: rgb(28, 24, 41);
+    font-size: 1rem;
+    max-width: 90%;
+}
+
+main{
+    background-color: #ffffff;
+    padding: 10vh 0;
+}
+
+.col-lg-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    
+}
+
+/* .bg{
+    border-radius: 10%;
+    background-image:linear-gradient(to right, #eef9ff, white);
+}  */
+
+.text-apropos{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.partenaire{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background-color: #417895;
+    padding: 10px;
+}
+
+.image-partenaire{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.img-partenaire{
+    margin-top: 5vh;
+}
+
+.img-entreprise{
+    margin-top: 2vh;
+    width: 350px;
+    height: 200px;
+}
+
+.img-entreprise:hover{
+    transform: scale(1.1);
+}
+
+.realisation{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    
+}
+
+.realisation a:hover {
+    opacity: 0.3;
+}
+
+
+
+.creation{
+    margin-top: 15vh;
+    width: 350px;
+    height: 170px;
+}
+
+.text{
+    opacity: 0;
+}
+
+.image-carport text:hover{
+    opacity: 1;
+}
+
+.image-carport{
+    position: relative;
+}
+
+.carport{
+    position: absolute;
+    top: 60%;
+    left: 42%;
+}
+
+.texte{
+    padding: 3vh;
+    text-align: center;
+    background-color: rgba(185, 178, 178, 0.8);
+}
+
+.formulaire{
+    margin-top: 10vh;
+}
+
+.espacevide{
+    height: 20px;
+}
+
+.ligne{
+    background-color: grey;
+    height: 2px;
+    max-width: 35%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.img-chalet:hover{
+    transform: scale(1.1);
+}
+
+.fleche{
+    color: white;
+    
+}
+
+.logo{
+    width: 230px;
+    height: 60px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 1200px){
+    .image-partenaire{
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+    }
+}
