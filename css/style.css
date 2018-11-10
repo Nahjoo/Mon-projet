@@ -36,9 +36,7 @@ footer {
     color: #DCDCDC;
     background-color: black;
     padding: 5vh;
-    /* margin-top: 10vh; */
 }
-
 
 .entreprise {
     text-align: center;
@@ -47,17 +45,15 @@ footer {
     max-width: 90%;
 }
 
-main {
-    background-color: #ffffff;
-    padding: 10vh 0;
-}
 
-.col-lg-6 {
+
+
+.col-lg-6{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2vh;
+    margin-top: 5vh;
 
 }
 
@@ -72,22 +68,30 @@ h1 , h3{
 }
 
 
-.text-apropos {
-    display: flex;
-    justify-content: center;
+article {
+    background-color: #eef0f1;
     padding: 5vh;
 }
 
-article {
-    background-color: #f8f9fa;
-    padding: 5vh;
+.bg-dark{
+    padding: 8vh;
+    height: auto;
+    color: #DCDCDC;
+    
+}
+
+.bg-color{
+    padding: 8vh;
+    height: auto;
+    background-color: #eef0f1;
+    color: black;
+    
 }
 
 .partenaire {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    padding: 10px;
 }
 
 .image-partenaire {
@@ -104,9 +108,8 @@ article {
 }
 
 .img-entreprise {
-    margin-top: 2vh;
-    width: 350px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 
 .img-entreprise:hover {
@@ -132,99 +135,22 @@ article {
 
 .card {
     margin: 5vh 5vh;
+    background-color: #343a40;
+    padding: 2vh;
+    color: #eef0f1;
 }
-
-/*.realisation .creation:hover{
-    opacity: 0.3;
-    
-}
-
-
-.text{
-    opacity: 0;
-    color: white;
-    background-color: rgba(59, 34, 34, 0.8);
-    padding: 2vh 2vh;
-}
-
-.image1{
-
-}
-
-.image1:hover .text {
-    opacity: 1;
-}
-
-.image-carport{
-    position: relative;
-}
-
-.carport{
-    position: absolute;
-    top: 33%;
-    left: 38%;
-}
-
-.image-abri {
-    position: relative;
-}
-
-.abri-jardin {
-    position: absolute;
-    top: 30%;
-    left: 36%;
-}
-
-.image-pergolas {
-    position: relative;
-}
-
-.pergolas {
-    position: absolute;
-    top: 30%;
-    left: 38%;
-}
-
-.image-garage {
-    position: relative;
-}
-
-.garage {
-    position: absolute;
-    top: 32%;
-    left: 39%;
-}
-
-.image-chalet {
-    position: relative;
-}
-
-.chalet {
-    position: absolute;
-    top: 32%;
-    left: 41%;
-}
-
-.image-gardecorps {
-    position: relative;
-}
-
-.garde-corps {
-    position: absolute;
-    top: 34%;
-    left: 35%;
-} */
-
 
 .texte {
     display: flex;
     justify-content: center;
-    padding: 3vh;
+    padding: 5vh;
+    margin-top: 5vh;
+    background-color: #f8f9fa;
 }
 
 .bg{
-    background-color: grey;
-    width: 2vh;
+    background-color: #DCDCDC;
+    width: 1vh;
     height: 10vh;
 }
 
@@ -256,13 +182,18 @@ img {
 
 .fleche {
     color: white;
-
 }
 
 .logo {
     width: 230px;
     height: 60px;
 }
+
+.page{
+    max-width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -279,4 +210,25 @@ img {
         width: 2vh;
         height: 15vh;
     }
+
+    .bg-dark{
+        padding: 5vh;
+        height: auto;
+        color: #DCDCDC;
+        
+    }
+    
+    .bg-color{
+        padding: 5vh;
+        height: auto;
+        background-color: #eef0f1;
+        color: black;
+        
+    }
+
+    .img-entreprise {
+        width: 350px;
+        height: 200px;
+    }
+
 }
