@@ -27,7 +27,6 @@ header {
 
 nav {
     background-color: rgba(59, 34, 34, 0.8);
-
 }
 
 
@@ -45,16 +44,12 @@ footer {
     max-width: 90%;
 }
 
-
-
-
 .col-lg-6{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
-
 }
 
 p, h4{
@@ -136,8 +131,14 @@ article {
 .card {
     margin: 5vh 5vh;
     background-color: #343a40;
-    padding: 2vh;
+    padding: 1vh;
     color: #eef0f1;
+}
+
+.bg-blanc{
+    background-color: rgb(47, 153, 35);
+    width: 50%;
+    height: 5px;
 }
 
 .texte {
