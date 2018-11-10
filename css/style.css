@@ -1,18 +1,18 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    
+
 }
 
-header{
+header {
     display: block;
     position: relative;
     max-width: 100%;
 }
 
-.banner{
-    background-image: url(../image/bg-masthead.jpg);
-    /* background-color: #6B818C; */
+.banner {
+    /* background-image: url(../image/bg-masthead.jpg); */
+    background-color: #6B818C;
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -22,110 +22,136 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 nav {
     background-color: rgba(59, 34, 34, 0.8);
-    
+
 }
 
 
-footer{
+footer {
     text-align: center;
     color: #DCDCDC;
     background-color: black;
     padding: 5vh;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 
 
-.entreprise{
+.entreprise {
     text-align: center;
     color: rgb(28, 24, 41);
     font-size: 1rem;
     max-width: 90%;
 }
 
-main{
+main {
     background-color: #ffffff;
     padding: 10vh 0;
 }
 
-.col-lg-6{
+.col-lg-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
-    
+
 }
 
-/* .bg{
-    border-radius: 10%;
-    background-image:linear-gradient(to right, #eef9ff, white);
-}  */
+p, h4{
+    font-family: 'Hind Madurai',
+    sans-serif;
+}
 
-.text-apropos{
+h1 , h3{
+    font-family: 'Acme',
+    sans-serif;
+}
+
+
+.text-apropos {
     display: flex;
     justify-content: center;
     padding: 5vh;
 }
 
-.partenaire{
+article {
+    background-color: #f8f9fa;
+    padding: 5vh;
+}
+
+.partenaire {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    background-color: #417895;
     padding: 10px;
 }
 
-.image-partenaire{
-    margin-top: 5vh;
+.image-partenaire {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    
+
 }
 
-.img-partenaire{
+.img-partenaire {
+    width: 250px;
+    height: 100px;
     margin-top: 5vh;
 }
 
-.img-entreprise{
+.img-entreprise {
     margin-top: 2vh;
     width: 350px;
     height: 200px;
 }
 
-.img-entreprise:hover{
+.img-entreprise:hover {
     transform: scale(1.1);
 }
 
-.realisation{
+.realisation {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    
+    background-color: #f8f9fa;
+    margin-top: 10vh;
 }
 
-.realisation a:hover {
-    opacity: 0.3;
+.realisation .card:hover{
+    transform: scale(1.1);
 }
 
-
-
-.creation{
-    margin-top: 15vh;
+.creation {
     width: 350px;
     height: 170px;
 }
 
-.text{
-    opacity: 0;
+.card {
+    margin: 5vh 5vh;
 }
 
-.image-carport text:hover{
+/*.realisation .creation:hover{
+    opacity: 0.3;
+    
+}
+
+
+.text{
+    opacity: 0;
+    color: white;
+    background-color: rgba(59, 34, 34, 0.8);
+    padding: 2vh 2vh;
+}
+
+.image1{
+
+}
+
+.image1:hover .text {
     opacity: 1;
 }
 
@@ -135,55 +161,122 @@ main{
 
 .carport{
     position: absolute;
-    top: 60%;
-    left: 42%;
+    top: 33%;
+    left: 38%;
 }
 
-.texte{
+.image-abri {
+    position: relative;
+}
+
+.abri-jardin {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+}
+
+.image-pergolas {
+    position: relative;
+}
+
+.pergolas {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+}
+
+.image-garage {
+    position: relative;
+}
+
+.garage {
+    position: absolute;
+    top: 32%;
+    left: 39%;
+}
+
+.image-chalet {
+    position: relative;
+}
+
+.chalet {
+    position: absolute;
+    top: 32%;
+    left: 41%;
+}
+
+.image-gardecorps {
+    position: relative;
+}
+
+.garde-corps {
+    position: absolute;
+    top: 34%;
+    left: 35%;
+} */
+
+
+.texte {
+    display: flex;
+    justify-content: center;
     padding: 3vh;
-    text-align: center;
-    background-color: rgba(185, 178, 178, 0.8);
 }
 
-.formulaire{
+.bg{
+    background-color: grey;
+    width: 2vh;
+    height: 10vh;
+}
+
+.texte h6{
+    margin-left: 30px;
+}
+
+.formulaire {
     margin-top: 10vh;
 }
 
-.espacevide{
+.espacevide {
     height: 20px;
 }
 
-.ligne{
+.ligne {
     background-color: grey;
     height: 2px;
     max-width: 35%;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-.img-chalet:hover{
+.img-chalet:hover {
     transform: scale(1.1);
 }
 
-.fleche{
+.fleche {
     color: white;
-    
+
 }
 
-.logo{
+.logo {
     width: 230px;
     height: 60px;
 }
 
 
 
-@media screen and (min-width: 300px) and (max-width: 1200px){
-    .image-partenaire{
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+    .image-partenaire {
         margin-top: 5vh;
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
+    }
+
+    .bg {
+        background-color: grey;
+        width: 2vh;
+        height: 15vh;
     }
 }
