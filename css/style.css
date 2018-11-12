@@ -261,6 +261,9 @@ img {
     margin-bottom: 5vh;
 }
 
+
+
+
 @media screen and (min-width: 300px) and (max-width: 1200px) {
     .image-partenaire {
         margin-top: 5vh;
@@ -297,6 +300,11 @@ img {
 
     .carousel-inner img{
         height: 200px;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
     }
 
 }
