@@ -253,7 +253,8 @@ img {
 }
 
 .suivant a:hover{
-    background-color: #DCDCDC;
+    
+    box-shadow: 5px 5px 3px rgba(110, 94, 94, 0.8);
     padding: 2vh;
 }
 
