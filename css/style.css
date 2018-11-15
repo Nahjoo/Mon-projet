@@ -245,11 +245,13 @@ img {
     margin-top: 10vh;
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
 }
 
 .suivant a{
     padding: 2vh;
     text-decoration: none;
+    margin-top: 5vh;
 }
 
 .suivant a:hover{
