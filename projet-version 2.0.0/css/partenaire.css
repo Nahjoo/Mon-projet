@@ -1,0 +1,25 @@
+/* Facts Section
+--------------------------------*/
+#partenaire {
+    background: #f5f5f5;
+    padding: 80px 0 60px 0;
+  }
+  
+#partenaire .counters span {
+    font-size: 48px;
+    display: block;
+    color: #000000;
+  }
+  
+#partenaire .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.counters{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-around;
+}
