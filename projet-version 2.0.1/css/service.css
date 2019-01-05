@@ -30,7 +30,7 @@
     text-align: center;
     width: 72px;
     height: 72px;
-    background: #3185f3;
+    background: #459afa;
   }
   
   #services .icon a {
@@ -44,15 +44,15 @@
   
   #services .box:hover .icon {
     background: #fff;
-    border: 2px solid #3185f3;
+    border: 2px solid #459afa;
   }
   
   #services .box:hover .icon i {
-    color: #3185f3;
+    color: #459afa;
   }
   
   #services .box:hover .icon a {
-    color: #3185f3;
+    color: #459afa;
   }
   
   #services .title {
@@ -69,8 +69,4 @@
   #services .description {
     font-size: 14px;
     line-height: 24px;
-  }
-
-  .section-header{
-    margin-bottom: 10vh;
   }

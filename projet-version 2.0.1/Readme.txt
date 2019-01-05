@@ -1,3 +1,6 @@
-Projet création d'un site pour une entreprise
+Thanks for downloading this theme!
 
-Des modifications sont encore à apporter
+Theme Name: Regna
+Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+Author: BootstrapMade.com
+Author URL: https://bootstrapmade.com

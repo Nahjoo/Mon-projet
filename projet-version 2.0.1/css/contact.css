@@ -1,7 +1,7 @@
 /* Contact Section
 --------------------------------*/
 #contact {
-    background: #f5f5f5;
+    background: #f7f7f7;
     padding: 80px 0 40px 0;
   }
   
@@ -16,7 +16,7 @@
   
   #contact .info i {
     font-size: 32px;
-    color: #3185f3;
+    color: #56a5ff;
     float: left;
   }
   
@@ -50,13 +50,13 @@
   }
   
   #contact .social-links a:hover {
-    background: #3185f3;
+    background: #459afa;
     color: #fff;
   }
   
   #contact .form #sendmessage {
-    color: #3185f3;
-    border: 1px solid #3185f3;
+    color: #55a4fd;
+    border: 1px solid #54a0f7;
     display: none;
     text-align: center;
     padding: 15px;
@@ -93,7 +93,7 @@
   }
   
   #contact .form button[type="submit"] {
-    background: #3185f3;
+    background: #459afa;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -101,7 +101,7 @@
   }
   
   #contact .form button[type="submit"]:hover {
-    background: #3185f3;
+    background: #459afa;
   }
 
   /* Call To Action Section
@@ -145,7 +145,4 @@
     color: #fff;
   }
   
-  #call-to-action .cta-btn:hover {
-    background: #3185f3;
-    border: 2px solid #3185f3;
-  }
+ 

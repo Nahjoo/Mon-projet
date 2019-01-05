@@ -41,7 +41,7 @@
   }
   
   #team .member .social a:hover {
-    color: #2dc997;
+    color: #4a9fff;
   }
   
   #team .member .social i {
@@ -52,4 +52,5 @@
   .equipe{
     display: flex;
     justify-content: center;
+
   }
