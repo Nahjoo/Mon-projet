@@ -5,12 +5,20 @@ body {
   overflow-x: hidden;
 }
 
+img{
+  width: 100%;
+}
+
+.img-home{
+  margin-top: 3vh;
+}
+
 a {
-  color: #2dc997;
+  color: #3185f3;
 }
 
 a:hover, a:active, a:focus {
-  color: #2dca98;
+  color: #3185f3;
   outline: none;
   text-decoration: none;
 }
@@ -66,67 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2dc997;
+  background: #6698da;
   color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-menu ul {
-  position: absolute;
-  display: none;
-  top: 100%;
-  left: 0;
-  z-index: 99;
-}
-
-.nav-menu li {
-  position: relative;
-  white-space: nowrap;
-}
-
-.nav-menu > li {
-  float: left;
-}
-
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
-  display: block;
-}
-
-.nav-menu ul ul {
-  top: 0;
-  left: 100%;
-}
-
-.nav-menu ul li {
-  min-width: 180px;
-}
-
-/* Nav Menu Arrows */
-.sf-arrows .sf-with-ul {
-  padding-right: 30px;
-}
-
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
 }
 
 /* Mobile Nav Toggle */
@@ -209,11 +158,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #2dc997;
+  color: #6cacff;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #2dc997;
+  color: #6cacff;
 }
 
 #mobile-body-overly {

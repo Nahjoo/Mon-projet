@@ -10,12 +10,12 @@
     }
   }
   
-  /* Nav Meu Styling */
+  /* Nav Menu Styling */
   .nav-menu a {
     padding: 0 8px 10px 8px;
     text-decoration: none;
     display: inline-block;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #2dc997;
+    background-color: #3185f3;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -63,7 +63,7 @@
   
   .nav-menu ul li a {
     padding: 10px;
-    color: #333;
+    color: rgb(25, 87, 255);
     transition: 0.3s;
     display: block;
     font-size: 13px;
@@ -71,10 +71,69 @@
   }
   
   .nav-menu ul li a:hover {
-    background: #2dc997;
+    background: #3185f3;
     color: #fff;
   }
   
   .nav-menu ul ul {
     margin: 0;
   }
+
+  /*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Nav Menu Essentials */
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+}
+
+/* Nav Menu Arrows */
+.sf-arrows .sf-with-ul {
+  padding-right: 30px;
+}
+
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
