@@ -18,13 +18,19 @@
   
   #header #logo h1 {
     font-size: 36px;
-    margin: 0;
-    padding: 6px 0;
+    margin: 0px ;
+    padding: 0px;
     line-height: 1;
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
+    border: 1px solid black;
+    
+  }
+
+  #logo{
+    margin-left: -100px;
   }
   
   #header #logo h1 a, #header #logo h1 a:hover {
@@ -36,17 +42,26 @@
     margin: 0;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     #header #logo h1 {
       font-size: 26px;
     }
     #header #logo img {
+      max-width: 200px;
       max-height: 40px;
     }
+
+    #logo{
+      margin: 0;
+    }
   }
+
+ 
+
+
   
   #header.header-fixed {
-    background: rgba(23, 131, 255, 0.9);
+    background: rgba(101, 167, 241, 0.9);
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
